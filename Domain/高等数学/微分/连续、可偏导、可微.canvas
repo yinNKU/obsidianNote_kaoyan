@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"59d14ff92162d86e","x":-300,"y":-200,"width":670,"height":500,"type":"group","label":"多元函数"},
+		{"id":"ec0e0c44ac7463a1","x":-350,"y":-860,"width":740,"height":360,"type":"group","label":"一元函数"},
+		{"id":"f6d8242da7768bd2","type":"text","text":"连续","x":-280,"y":-180,"width":250,"height":60},
+		{"id":"c190e09a4084f04f","type":"text","text":"可导（偏导）","x":100,"y":-180,"width":250,"height":60},
+		{"id":"c4de2d8740e60ac1","type":"text","text":"一阶偏导数连续","x":-80,"y":220,"width":250,"height":60},
+		{"id":"84ba7b51d928481c","type":"text","text":"可微","x":-80,"y":20,"width":250,"height":60},
+		{"id":"3fcaf4df43ac998e","x":-330,"y":-840,"width":250,"height":60,"type":"text","text":"连续"},
+		{"id":"75e8ec00a3fd2a7a","x":120,"y":-840,"width":250,"height":60,"type":"text","text":"可导"},
+		{"id":"b72e7db6e51a37e5","x":-80,"y":-580,"width":250,"height":60,"type":"text","text":"可微"}
+	],
+	"edges":[
+		{"id":"06c30cd38f77d95b","fromNode":"f6d8242da7768bd2","fromSide":"right","toNode":"c190e09a4084f04f","toSide":"top","label":"不可推"},
+		{"id":"153f94e36a9843cf","fromNode":"c190e09a4084f04f","fromSide":"left","toNode":"f6d8242da7768bd2","toSide":"top","label":"不可推"},
+		{"id":"74f4085a74226b77","fromNode":"f6d8242da7768bd2","fromSide":"bottom","toNode":"84ba7b51d928481c","toSide":"top","label":"不可推"},
+		{"id":"e69557074f7a2d54","fromNode":"c190e09a4084f04f","fromSide":"bottom","toNode":"84ba7b51d928481c","toSide":"top","label":"不可推"},
+		{"id":"a01baeb64d43c167","fromNode":"84ba7b51d928481c","fromSide":"left","toNode":"f6d8242da7768bd2","toSide":"bottom"},
+		{"id":"6c1dddad0d968476","fromNode":"84ba7b51d928481c","fromSide":"right","toNode":"c190e09a4084f04f","toSide":"bottom"},
+		{"id":"9bdd3eab16f88cf7","fromNode":"84ba7b51d928481c","fromSide":"bottom","toNode":"c4de2d8740e60ac1","toSide":"right","label":"不可推"},
+		{"id":"2fa0b0ded866df24","fromNode":"c4de2d8740e60ac1","fromSide":"left","toNode":"84ba7b51d928481c","toSide":"bottom"},
+		{"id":"414141c6332da98d","fromNode":"3fcaf4df43ac998e","fromSide":"right","toNode":"75e8ec00a3fd2a7a","toSide":"top","label":"不可推"},
+		{"id":"8ed3a264de519acd","fromNode":"75e8ec00a3fd2a7a","fromSide":"left","toNode":"3fcaf4df43ac998e","toSide":"top"},
+		{"id":"3b9b24f0ce78919e","fromNode":"75e8ec00a3fd2a7a","fromSide":"bottom","toNode":"b72e7db6e51a37e5","toSide":"top"},
+		{"id":"a1ba94f34b5bc174","fromNode":"b72e7db6e51a37e5","fromSide":"right","toNode":"75e8ec00a3fd2a7a","toSide":"bottom"},
+		{"id":"9ca2c4d7b890a759","fromNode":"b72e7db6e51a37e5","fromSide":"left","toNode":"3fcaf4df43ac998e","toSide":"bottom"},
+		{"id":"114dd4354fc62082","fromNode":"3fcaf4df43ac998e","fromSide":"bottom","toNode":"b72e7db6e51a37e5","toSide":"top","label":"不可推"}
+	]
+}
