@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"from PIL import Image; print\\('pillow ok'\\)\")",
+      "Bash(python3 -c \"import pytesseract; print\\('tesseract ok'\\)\")",
+      "Bash(winget list *)",
+      "Bash(choco list *)",
+      "Bash(pip3 list *)",
+      "Bash(python3 -c \"import subprocess; print\\(subprocess.run\\(['where', 'tesseract'], capture_output=True, text=True\\).stdout\\)\")",
+      "Bash(powershell.exe -Command \"Get-Command -Name 'Get-WindowsCapability' -ErrorAction SilentlyContinue | Select-Object -First 1\")",
+      "Bash(python3 -c ' *)",
+      "Bash(pip3 install *)"
+    ]
+  }
+}
