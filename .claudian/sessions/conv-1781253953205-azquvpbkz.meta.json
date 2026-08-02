@@ -1,0 +1,23 @@
+{
+  "id": "conv-1781253953205-azquvpbkz",
+  "providerId": "claude",
+  "title": "整理树与森林笔记格式",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781253953205,
+  "updatedAt": 1781334771487,
+  "lastResponseAt": 1781264812622,
+  "sessionId": "3e605362-a4eb-4c82-8fa9-12e59c6568f2",
+  "providerState": {
+    "providerSessionId": "3e605362-a4eb-4c82-8fa9-12e59c6568f2"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 3431,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 77056,
+    "contextWindow": 200000,
+    "contextTokens": 80487,
+    "percentage": 40,
+    "contextWindowIsAuthoritative": true
+  }
+}

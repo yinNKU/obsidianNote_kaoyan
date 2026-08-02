@@ -1,0 +1,23 @@
+{
+  "id": "conv-1781334798713-qsmq55waz",
+  "providerId": "claude",
+  "title": "Organize graph data structure notes",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781334798713,
+  "updatedAt": 1781501991354,
+  "lastResponseAt": 1781497951603,
+  "sessionId": "b8e66fb4-775a-497a-951f-12e0a36f2ed5",
+  "providerState": {
+    "providerSessionId": "b8e66fb4-775a-497a-951f-12e0a36f2ed5"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 146,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 92544,
+    "contextWindow": 200000,
+    "contextTokens": 92690,
+    "percentage": 46,
+    "contextWindowIsAuthoritative": true
+  }
+}

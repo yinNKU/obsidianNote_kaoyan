@@ -1,0 +1,23 @@
+{
+  "id": "conv-1782631046896-639rwg5ay",
+  "providerId": "claude",
+  "title": "Summarize search algorithm concepts",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782631046896,
+  "updatedAt": 1783499021315,
+  "lastResponseAt": 1783156476779,
+  "sessionId": "9d462833-c364-44fe-9640-d81352200c47",
+  "providerState": {
+    "providerSessionId": "9d462833-c364-44fe-9640-d81352200c47"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 394,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 163840,
+    "contextWindow": 200000,
+    "contextTokens": 164234,
+    "percentage": 82,
+    "contextWindowIsAuthoritative": true
+  }
+}
